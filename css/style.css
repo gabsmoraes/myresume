@@ -10,7 +10,7 @@ Author: themehippo.com
 
 # Body  (text): #3a4750
 # Heading Color #444444
-# Theme Color (link color) #ff5722
+# Theme Color (link color) #2980b9
 # Mid grey (sub header) #f4f4f4
 # -------------------------------------------------------------------*/
 
@@ -92,7 +92,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #ff5722;
+    color              : #2980b9;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -111,7 +111,7 @@ a:active {
 a:hover,
 a:focus {
     text-decoration : none;
-    color           : #ff5722;
+    color           : #16a085;
     }
 
 p {
@@ -150,7 +150,7 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color : #ff5722;
+    background-color : #2980b9;
     }
 
 .btn-primary:hover,
@@ -239,7 +239,7 @@ button:focus,
     padding    : 25px 0;
     margin     : 0;
     position   : relative;
-    border-top : 5px solid #ff5722;
+    border-top : 5px solid #2980b9;
     border-bottom : 0.1px solid #d1d1d1;
     }
 
@@ -264,7 +264,7 @@ button:focus,
 
 .header .name-wrapper span {
     font-size : 24px;
-    color     : #ff5722;
+    color     : #2980b9;
     }
 
 .header .personal-details {
@@ -307,6 +307,19 @@ button:focus,
      * Social Icon
      *-------------------*/
 
+.flags {
+    z-index: 10;
+    position: fixed;
+    top: 20px;
+    right: 70px;
+    size: 20px;
+
+}
+
+.usa, .brazil{
+    border: hidden !important;
+}
+
 .social-icon {
     margin  : 20px 0;
     padding : 0;
@@ -327,12 +340,12 @@ button:focus,
     line-height   : 33px;
     text-align    : center;
     border-radius : 2px;
-    border        : 2px solid #eeeeee;
+    border        : 2px solid #dddddd;
     }
 
 .social-icon li a:hover {
     border-color : #cccccc;
-    color:  #ff5722;
+    color:  #2980b9;
     }
 
 
@@ -393,7 +406,7 @@ button:focus,
     }
 
 .progress-item .progress-bar {
-    background-color : #ff5722;
+    background-color : #2980b9;
     box-shadow       : none;
     text-align       : right;
     }
@@ -645,7 +658,7 @@ button:focus,
     }
 
 .profile-item  a:hover{
-    color: #ff5722;
+    color: #2980b9;
     }
 
 /*-------------------
@@ -787,6 +800,7 @@ button:focus,
     }
 
     .header {
+        padding-bottom: 0px;
         width: 100%;
         position: fixed;
         top: 0;
@@ -851,7 +865,7 @@ button:focus,
   }
 
 #return-to-top:hover {
-    background: #ff5722;
+    background: #2980b9;
 }
 #return-to-top:hover i {
     color: #fff;
@@ -859,6 +873,6 @@ button:focus,
 }
 
 .section-title {
-    border-bottom: 1px solid #ff5722;
+    border-bottom: 1px solid #2980b9;
 
 }

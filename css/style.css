@@ -249,6 +249,21 @@ button:focus,
 
 #profile-img {
     border-radius: 360px;
+}
+
+@media (max-width: 414px){
+  #profile-img {
+      width: 250px;
+      margin: auto;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1023px){
+
+  #profile-img{
+    width: 480px;
+    margin: auto;
+  }
 
 }
 
@@ -366,10 +381,12 @@ button:focus,
 
 
 @media (max-width: 768px) {
-    .item-stats{
-        margin-bottom: 30px;
-        }
-    }
+ 
+  .item-stats{
+    margin-bottom: 30px;
+  }
+
+}
 
 /*-------------------
  * Expertise

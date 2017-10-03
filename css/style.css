@@ -230,7 +230,15 @@ button:focus,
         font-size: 18px;
         margin-bottom: 20px;
         }
+
+    #return-to-top {
+      display: none !important;
     }
+
+    .flags {
+      position: unset !important;
+    }
+}
 
 /*-----------------------------
  * NAVIGATION & HEADER STYLE

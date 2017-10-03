@@ -221,7 +221,7 @@ button:focus,
     text-transform : uppercase;
     }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .section-title{
         text-align: center;
         margin-right: 0px !important;
@@ -260,7 +260,7 @@ button:focus,
     border-radius: 360px;
 }
 
-@media (max-width: 415px){
+@media (max-width: 426px){
   #profile-img {
       width: 250px;
       margin: auto;
@@ -277,9 +277,16 @@ button:focus,
 }
 
 @media (min-width: 767px) and (max-width: 1023px){
+  .name-wrapper, .infos, .social-icon {
+    text-align: center;
+  }
+
+  .adress-header, .lang-header {
+    margin-left: 0px !important;
+  }
 
   #profile-img{
-    width: 480px;
+    width: 440px;
     margin: auto;
   }
 

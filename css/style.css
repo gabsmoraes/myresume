@@ -251,11 +251,20 @@ button:focus,
     border-radius: 360px;
 }
 
-@media (max-width: 414px){
+@media (max-width: 415px){
   #profile-img {
       width: 250px;
       margin: auto;
   }
+
+  .name-wrapper, .infos, .social-icon {
+    text-align: center;
+  }
+
+  .adress-header, .lang-header {
+    margin-left: 0px !important;
+  }
+
 }
 
 @media (min-width: 767px) and (max-width: 1023px){
@@ -876,7 +885,7 @@ button:focus,
   
   }
 
-  .leng-header{
+  .lang-header{
 
     margin-left: 20px;
   }
